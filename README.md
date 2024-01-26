@@ -17,18 +17,6 @@
 - npm으로 create-react-app 이용
 
 
-## **jQuery** <br>
-**✨ jQuery 사용 이유 : 브라우저 호환성, 간편한 DOM 조작, 애니메이션 및 효과, AJAX 요청의 단순화, 사용이 간편하고 빠른 개발 등**
-- jQuery 파일 첨부한 곳 밑에서부터 jQuery 문법 작성 가능(body 태그 끝나기 전 쪽에 작성하는 것이 좋음! 그냥 모든 js 파일 다 넣기) <br>
-```$('#test')``` : id가 test인 요소 선택 <br>
-```$('.test')``` : class가 test인 요소 선택
-- html 요소 바꾸는 법(오른쪽이 jQuery 문법!) <br>
-```document.getElementById('test').innerHTML = '안녕';``` == ```$('#test').html('안녕');```
-- css 적용하는 법 <br>
-```$('#test').css('color', 'pink');``` -> css('이걸', '이렇게')
-
-
-
 ## **✨ Selector 선택자** <br>
 **✨ Selector 사용 이유 : DOM(Document Object Model)을 사용하여 HTML 문서의 요소에 접근하고 조작할 수 있게 해주고, 각각의 메서드는 특정 조건에 맞는 요소를 선택하여 JavaScript를 통해 동적인 변경이나 상호작용을 할 수 있도록 함**
 **✨ Selector 종류** <br>
