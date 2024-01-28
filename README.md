@@ -43,6 +43,28 @@
 ```onClick ={()=>{실행할 내용}}```
 
 
-## **✨ Selector 선택자** <br>
-**✨ Selector 사용 이유 : DOM(Document Object Model)을 사용하여 HTML 문서의 요소에 접근하고 조작할 수 있게 해주고, 각각의 메서드는 특정 조건에 맞는 요소를 선택하여 JavaScript를 통해 동적인 변경이나 상호작용을 할 수 있도록 함**
+## **✨ Component** <br>
+- 리액트에서의 Component는 UI를 구성하는 요소로서 독립적이고 재사용 가능한 코드 블록
+- 각각의 컴포넌트는 자체적으로 상태(state)와 속성(props)을 가질 수 있으며, 이를 통해 동적이고 유연한 UI를 만들 수 있음
+- Component 만드는 법(funtcion App() 끝나는 부분에 작성, function App()도 일종의 Component)
+1. 함수 만들고 이름짓고
+2. 축약을 원하는 HTML 넣고
+3. 원하는 곳에서 <함수명/>
+- Component 유의사항
+1. 이름은 대괄호
+2. return() 안에 있는건 태그하나로 묶어야함
+3. 하나의 div 태그로 묶기 싫다면 <>, </>로 묶기
+- Component로 묶으면 좋은 것
+1. 반복 출현하는 HTML 덩어리들
+2. 자주 변경되는 HTML UI들
+
+
+**✨ Component 타입**
+- 함수형 컴포넌트 (Functional Components): ES6의 화살표 함수나 일반 함수를 사용하여 정의되며, 주로 상태나 생명주기 메서드가 필요하지 않은 단순한 컴포넌트에 사용됨
+
+- 클래스형 컴포넌트 (Class Components): ES6의 클래스를 사용하여 정의되며, 상태나 생명주기 메서드 등의 기능을 활용할 수 있음
+
+
+
+
 **✨ Selector 종류** <br>
