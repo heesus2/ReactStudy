@@ -14,8 +14,30 @@
 
 **✨ node.js 설치 이유 : create-react-app 라이브러리 때문**
 - node.js 설치하면 npm(Node Package Manager)을 통해 다양한 라이브러리와 모듈을 손쉽게 관리할 수 있음
-- npm으로 create-react-app 이용\
-  <hr> 여기부터 다시 쓰기
+- npm으로 create-react-app 이용
+  
+**✨ 데이터 바인딩**
+- 변수에 넣기
+- state에 넣기
+- 이벤트 핸들러를 통한 데이터 바인딩
+- Props를 이용한 데이터 바인딩
+
+**✨ state** 
+- state(state가 변경되면 HTML이 재렌더링 됨)
+1. 변수 대신 쓰는 데이터 저장공간
+2. useState()를 이용해 만들어야함 ```[state 데이터, state 데이터 변경 함수]```
+- state 사용하기
+1. {useState} 상단에 첨부 ```import React, { useState } from 'react';```
+2. useState(데이터)
+3. 문자, 숫자, array, object 다 저장가능 <br>
+```let [글제목, 글제목변경] = useState(['여자 옷 추천', '수원 맛집']);```
+{글제목[1]} -> 하면 여자 옷 추천 출력 <br>
+<자주 바뀌는, 중요한 데이터를 변수 말고 state로 저장해서 쓰기>
+
+**✨ onClick** <br>
+```onClick={클릭될 때 실행할 함수}``` <br>
+```onClick ={()=>{실행할 내용}}```
+
 
 ## **✨ Selector 선택자** <br>
 **✨ Selector 사용 이유 : DOM(Document Object Model)을 사용하여 HTML 문서의 요소에 접근하고 조작할 수 있게 해주고, 각각의 메서드는 특정 조건에 맞는 요소를 선택하여 JavaScript를 통해 동적인 변경이나 상호작용을 할 수 있도록 함**
