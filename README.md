@@ -64,5 +64,5 @@
 
 - 클래스형 컴포넌트 (Class Components): ES6의 클래스를 사용하여 정의되며, 상태나 생명주기 메서드 등의 기능을 활용할 수 있음
 
-**✨ Props(properties의 줄임말)** <br>
+## **✨ Props(properties의 줄임말)** <br>
 -  React 컴포넌트 간에 데이터를 전달하는 메커니즘
