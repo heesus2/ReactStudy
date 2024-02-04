@@ -66,3 +66,26 @@
 
 ## **✨ Props(properties의 줄임말)** <br>
 -  React 컴포넌트 간에 데이터를 전달하는 메커니즘
+
+```import React from 'react';
+부모 컴포넌트
+import ChildComponent from './ChildComponent';
+
+function ParentComponent() {
+    const name = "John";
+    return (
+        <ChildComponent name={name} />
+    );
+}
+
+자식 컴포넌트
+import React from 'react';
+
+function ChildComponent(props) {
+    return (
+        <p>Hello, {props.name}!</p>
+    );
+}
+
+// 렌더링 결과
+<p>Hello, John!</p>
