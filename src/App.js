@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Hello from './component/Hello';
-import State from './component/State'
-import Sidebar from './component/Sidebar'
+import  Hello from './component/Hello';
 
 function App() {
   return (
     <div>
-      <Sidebar />
+      <Hello />
     </div>
   );
 }
